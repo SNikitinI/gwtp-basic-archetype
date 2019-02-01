@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gwtp-basic-archetype:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gwtp-basic-archetype</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gwtp-basic-archetype-1.5.3.war">
+      <element id="artifact" artifact-name="gwtp-basic-archetype:war exploded" />
+    </root>
+  </artifact>
+</component>
